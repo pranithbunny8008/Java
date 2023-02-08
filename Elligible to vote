@@ -1,0 +1,29 @@
+import java.util.*;
+import java.io.*;
+
+class vote
+{
+public static void main(String args[])
+{
+try
+{
+Scanner sc=new Scanner(System.in);
+int age,y;
+System.out.println("enter the age");
+age=sc.nextInt();
+y=18-age;
+if(age<18)
+{
+System.out.println("not elligible"+y);
+}
+else
+{
+System.out.println("elligible to vote");
+}
+}
+catch(Exception e)
+{
+System.out.println("invalid input");
+}
+}
+}
