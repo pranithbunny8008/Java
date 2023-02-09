@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class DecimalToBinary {
+
+  public static void main(String[] args) {
+    Scanner scan = new Scanner(System.in);
+    System.out.print("Enter a decimal number: ");
+    int decimal = scan.nextInt();
+    String binary = Integer.toBinaryString(decimal);
+    System.out.println("Binary equivalent: " + binary);
+    System.out.println("Reverse binary: " + new StringBuilder(binary).reverse().toString());
+    String BinaryNumber=BinaryInput.nextInt();
+    System.out.println("Decimal Number "+Integer.parseInt(BinaryNumber,2));
+  }
+}
